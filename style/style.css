@@ -2,6 +2,11 @@ body {
     background-color: #03191E;
     color: #CFDEE7;
     margin: 0px;
+
+    background-image: url("../img/bg01.jpg"), linear-gradient(rgba(3, 25, 30, 0.5), rgba(3, 25, 30, 0.5));
+    background-blend-mode: overlay;
+
+    font-family: 'Courier New', monospace;
 }
 
 ul,
@@ -15,6 +20,10 @@ a {
     text-decoration: none;
     color: #CFDEE7;
 
+}
+
+img {
+    box-shadow: 0px 8px 16px black;
 }
 
 .intro-right {
@@ -40,6 +49,7 @@ a {
 .card-image {
     background-color: #0F1A20;
     color: #CFDEE7;
+    border-radius: 12px;
 }
 
 .quote {
@@ -128,6 +138,11 @@ body {
     height: 315px;
 }
 
+.intro-image {
+    width: 535px;
+    height: 315px;
+}
+
 .info {
     display: flex;
     flex-direction: column;
@@ -138,9 +153,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     width: 1200px;
-    gap: 16px;
+    gap: 32px;
 }
 
 .card {
