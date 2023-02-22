@@ -44,7 +44,7 @@ a {
 
 .quote {
     background-color: #94A2AC;
-    color:#03191E;
+    color: #03191E;
 }
 
 .quote-text {
@@ -65,6 +65,12 @@ a {
 
 .reminder-content {
     background-color: #457B9D;
+    color: #CFDEE7;
+}
+
+.reminder-content .btn {
+    border-style: solid;
+    border-color: #CFDEE7;
 }
 
 /* Display */
@@ -183,4 +189,32 @@ body {
     align-items: center;
     justify-content: flex-end;
     margin-right: auto;
+}
+
+.reminder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.reminder-content {
+    display: flex;
+    flex: 0 1 auto;
+    width: 800px;
+    padding: 16px;
+    border-radius: 12px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reminder-text {
+    flex: 0 2 auto;
+    margin-left: 0px;
+}
+
+.reminder-content .btn {
+    width: 128px;
+    height: 64px;
+    flex: 0 2 auto;
 }
