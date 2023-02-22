@@ -26,6 +26,12 @@ img {
     box-shadow: 0px 8px 16px black;
 }
 
+.head-logo {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+}
+
 .intro-right {
     background-color: #0F1A20;
 }
@@ -34,6 +40,10 @@ img {
     background-color: #CFDEE7;
     color: #03191E;
     margin: 0px;
+}
+
+.info-title {
+    font-size: 32px;
 }
 
 .btn {
@@ -90,36 +100,42 @@ body {
     flex-direction: column;
 }
 
-.nav {
+.top {
     display: flex;
-    width: 1200px;
-    align-self: center;
+    flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
 }
 
-.head-logo {
-    font-size: 24px;
-    font-weight: bold;
-    margin-right: auto;
+.top-content {
+    width: 1200px;
+}
+
+.nav {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .head-right-links {
     display: flex;
-    margin-left: auto;
+    flex-flow: row wrap;
     gap: 12px;
 }
 
 .intro {
     display: flex;
-    justify-content: flex-start;
-    align-self: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 32px;
     margin: 32px 0px;
-    width: 1200px;
 }
 
 .intro-left {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     align-items: flex-start;
     flex-wrap: wrap;
     width: 500px;
@@ -133,7 +149,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px auto;
+
     width: 535px;
     height: 315px;
 }
@@ -154,8 +170,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
-    width: 1200px;
     gap: 32px;
+    flex: 0 1 auto;
 }
 
 .card {
@@ -167,15 +183,15 @@ body {
 }
 
 .card p {
-    width: 200px;
+    width: 225;
 }
 
 .card-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 225;
+    height: 225;
 }
 
 .quote {
@@ -188,10 +204,11 @@ body {
 
 .quote-text {
     display: flex;
-    width: 600px;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
+    max-width: 600px;
+    flex: 1 1 auto;
 }
 
 .quote-text p {
@@ -200,10 +217,11 @@ body {
 
 .quote-author {
     display: flex;
-    width: 1200px;
     align-items: center;
     justify-content: flex-end;
-    margin-right: auto;
+    min-width: 600px;
+    flex: 1 1 auto;
+
 }
 
 .reminder {
