@@ -43,7 +43,19 @@ a {
 }
 
 .quote {
-    background-color: #5b6a72;
+    background-color: #94A2AC;
+    color:#03191E;
+}
+
+.quote-text {
+    font-size: 32px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 /* Display */
@@ -134,4 +146,28 @@ body {
     align-items: center;
     width: 200px;
     height: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+
+.quote-text {
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.quote-author {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: auto;
 }
