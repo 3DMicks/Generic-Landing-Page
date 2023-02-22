@@ -16,6 +16,16 @@ a {
 
 }
 
+.btn {
+    background-color: #457B9D;
+    color: #CFDEE7;
+    border: none;
+    border-radius: 16px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 /* Display */
 
 body {
@@ -32,6 +42,7 @@ body {
 
 .head-logo {
     font-size: 24px;
+    font-weight: bold;
     margin-right: auto;
 }
 
@@ -39,4 +50,25 @@ body {
     display: flex;
     margin-left: auto;
     gap: 12px;
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    margin-top: 32px;
+    width: 1200px;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 500px;
+
+}
+
+.intro-left .btn {
+    width: 128px;
 }
