@@ -1,6 +1,7 @@
 body {
     background-color: #0F1A20;
     color: #CFDEE7;
+    margin: 0px;
 }
 
 ul,
@@ -16,6 +17,12 @@ a {
 
 }
 
+.info {
+    background-color: #CFDEE7;
+    color: #0F1A20;
+    margin: 0px;
+}
+
 .btn {
     background-color: #457B9D;
     color: #CFDEE7;
@@ -24,6 +31,10 @@ a {
     padding: 8px;
     font-size: 16px;
     font-weight: 600;
+}
+
+.intro-right {
+    background-color: #03191E;
 }
 
 /* Display */
@@ -56,7 +67,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-self: center;
-    margin-top: 32px;
+    margin: 32px 0px;
     width: 1200px;
 }
 
@@ -66,9 +77,17 @@ body {
     align-items: flex-start;
     flex-wrap: wrap;
     width: 500px;
-
 }
 
 .intro-left .btn {
     width: 128px;
+}
+
+.intro-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 535px;
+    height: 315px;
 }
