@@ -1,2 +1,2 @@
 # Generic-Landing-Page
-A generic landing page, The Odin Project assignment
+A generic landing page made for an The Odin Project assignment.
